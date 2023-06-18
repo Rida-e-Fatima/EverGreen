@@ -26,6 +26,7 @@ body{
     position: fixed;
     top: 0;
     transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar-after-scroll {
@@ -330,6 +331,9 @@ footer{
     padding: 30px;
     background-color: #243626;
 }
+.footer-section{
+    line-height: 30px;
+}
 .footer-social a i{
     color:#b2fdd2;
     font-size: 20px;
@@ -342,10 +346,10 @@ footer{
     font-family: 'Roboto', sans-serif; 
 }
 .footer-txt{
-    margin: 35px 50px;
+    margin: 35px 20px;
 }
 .footer-right-text {
-    margin: 35px 50px;
+    margin: 35px 20px;
 }
 .footer-txt ul li a{
     color:#fff;
