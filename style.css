@@ -42,29 +42,29 @@ body{
 }
 
 .logo-img {
-    margin: 0 auto;
-    /* position: absolute;
-    top:80px;
-    left:360px; */
+    /* margin: 0 auto; */
+    position: relative;
+    top:-2px;
+    left:16px;
 }
 
 .middle-text {
     color: #243626;
     margin: 0 auto;
     width: 500px;
+    position: relative;
+    top:-50px;
 }
 
 .middle-text .mt-h {
     font-size: 90px;
-    position: relative;
-    top:-50px;
+    
 }
 
 .middle-text .mt-p {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
-    position: relative;
-    top:-50px;
+    
 }
 
 .about-us {

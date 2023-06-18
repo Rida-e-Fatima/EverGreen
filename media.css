@@ -12,7 +12,7 @@
 @media screen and (max-width:673px) {
     .logo-img {
         height: 250px;
-        margin: 0 auto;
+        /* margin: 0 auto; */
         /* position: absolute;
         top:80px;
         left:360px; */
@@ -20,15 +20,15 @@
 }
 @media screen and (max-width:507px) {
     .logo-img {
-        height: 162px;
-        margin: 0 auto;
+        height: 144px;
+        /* margin: 0 auto; */
     }
-
     .middle-text {
         color: #243626;
         margin: 0 auto;
         width: 280px;
-        /* text-align: center; */
+        position: relative;
+        top:-2px;
     }
 
     .middle-text .mt-h {
