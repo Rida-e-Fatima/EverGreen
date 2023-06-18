@@ -1,0 +1,107 @@
+@media screen and (max-width:765px) {
+    .navbar {
+        background-color: #fff;
+    }
+}
+/* @media screen and (min-width:330px) {
+    .logo-img {
+        height: 1690px;
+        margin: 0 auto;
+    }
+} */
+@media screen and (max-width:673px) {
+    .logo-img {
+        height: 250px;
+        margin: 0 auto;
+        /* position: absolute;
+        top:80px;
+        left:360px; */
+    }
+}
+@media screen and (max-width:507px) {
+    .logo-img {
+        height: 162px;
+        margin: 0 auto;
+    }
+
+    .middle-text {
+        color: #243626;
+        margin: 0 auto;
+        width: 280px;
+        /* text-align: center; */
+    }
+
+    .middle-text .mt-h {
+        font-size: 40px;
+    }
+
+    .middle-text .mt-p {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .about-us {
+        text-align: center;
+        height: auto;
+        padding: 10px;
+        background-color: #57fc9f;
+    }
+
+    .moveable-text {
+        font-family: 'Roboto', sans-serif;
+        font-size:17px;
+    }
+
+    .aboutus-h {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .services{
+        color:#243626 ;
+        text-align: center;
+        height: auto;
+        padding: 46px;
+        background-color: #b2fdd2;
+    }
+    .service-h{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .service-p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+    }
+    .service-p span{
+        color: #243626;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .start {
+        color: #243626;
+        /* text-align: center; */
+        /* height: auto; */
+        padding: 46px;
+        background-color: #243626;
+    }
+    .booknow{
+        background-color: #01220f;
+        position: relative;
+        height: auto;
+        width: 100%;
+        padding: 40px;
+        text-align: center;
+        /* backdrop-filter: blur(8px); */
+    }
+    .booknow-h{
+        font-size: 40px;
+        font-weight: 700;
+        color:#fff
+    }
+    .footer-txt{
+        margin: 20px 20px;
+    }
+    .footer-right-text {
+        margin: 20px 20px;
+    }
+}
