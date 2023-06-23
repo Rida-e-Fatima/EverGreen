@@ -10,8 +10,9 @@ body{
     overflow-x: hidden;
 }
 .nav-item .nav-link {
+
     color: #243626;
-    font-size: 20px !important;
+    font-size: 25px !important;
     font-weight: 700;
 }
 
@@ -39,7 +40,7 @@ body{
 .w-banner-img{
       width: auto;
       height: 700px;
-      margin-top: 66px;
+      margin-top: 890px;
       /* opacity: 0.5; */
       /* margin: 0px auto; */
       background-image: url('./assets/images/banner-img.jpg');
