@@ -11,7 +11,7 @@ body{
 }
 .nav-item .nav-link {
     color: #243626;
-    font-size: 25px;
+    font-size: 20px !important;
     font-weight: 700;
 }
 
@@ -31,41 +31,57 @@ body{
 
 .navbar-after-scroll {
     background-color: white;
-
+    box-shadow: 0px -2px 43px 5px rgba(0, 0, 0, 0.36);
+    -webkit-box-shadow: 0px -2px 43px 5px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 0px -2px 43px 5px rgba(0, 0, 0, 0.36);
+    transition: all 1s ease;
 }
-
-.light-color {
+.w-banner-img{
+      width: auto;
+      height: 700px;
+      margin-top: 66px;
+      /* opacity: 0.5; */
+      /* margin: 0px auto; */
+      background-image: url('./assets/images/banner-img.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      padding: 30px;
+      font-size: 18px;
+      color: white;
+      /* overflow: auto; */
+      background-attachment: fixed;
+  }
+  .overlay{
+    position:absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    background-color: #b2fdd2;
-    text-align: center;
-    padding: 30px;
-}
-
-.logo-img {
-    /* margin: 0 auto; */
-    position: relative;
-    top:-2px;
-    left:16px;
-}
+    height: 757px;
+    opacity: 0.6;
+    background: rgb(12, 12, 12);
+    background: linear-gradient(90deg, #a5f3c7 100%, #57fc9f 100%, rgb(52, 51, 51) 100%, rgb(52, 51, 51) 100%);
+  } 
 
 .middle-text {
+    position: absolute;
+    text-align: center;
     color: #243626;
-    margin: 0 auto;
     width: 500px;
-    position: relative;
-    top:-50px;
+    top:260px; 
+    left: 396px;
 }
 
 .middle-text .mt-h {
     font-size: 90px;
-    
+   
 }
 
 .middle-text .mt-p {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     
-}
+} 
 
 .about-us {
     color: #243626;
@@ -94,6 +110,9 @@ body{
     padding: 90px;
     background-color: #b2fdd2;
 }
+ /* .box{
+    display: none;
+ } */
 
 /* .spacing-div{
     margin-right: 15px;
@@ -181,7 +200,7 @@ body{
 }
 
 .card_txt .card_bottom ul li:hover {
-    font-size: 19px;
+    font-size: 17px;
     font-family: 'Roboto', sans-serif;
     color: #6dff00;
     cursor: pointer;
@@ -378,11 +397,12 @@ footer{
 .bottom-footer{
     background-color: #57fc9f;
     color: #01220f;
-    padding: 30px;
+    padding: 11px 11px 7px 11px;
 }
 .footer-copyright p{
     font-weight: 500;
-    font-size: 19px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.5);
     font-family: 'Roboto', sans-serif; 
     text-decoration: none;
 }

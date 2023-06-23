@@ -10,3 +10,7 @@ window.addEventListener('scroll', function() {
     navbar.classList.remove("navbar-after-scroll");
   }
 });
+// services 
+function showSection(){
+  document.getElementById(ext-fun).style.display = 'block';
+}
